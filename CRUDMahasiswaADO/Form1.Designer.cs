@@ -52,7 +52,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 38);
+            this.label1.Location = new System.Drawing.Point(40, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 20);
             this.label1.TabIndex = 0;
@@ -62,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 69);
+            this.label2.Location = new System.Drawing.Point(40, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 1;
@@ -70,17 +70,18 @@
             // 
             // txtNIM
             // 
-            this.txtNIM.Location = new System.Drawing.Point(244, 35);
+            this.txtNIM.Location = new System.Drawing.Point(244, 22);
             this.txtNIM.Name = "txtNIM";
-            this.txtNIM.Size = new System.Drawing.Size(100, 26);
+            this.txtNIM.Size = new System.Drawing.Size(200, 26);
             this.txtNIM.TabIndex = 2;
             // 
             // txtNama
             // 
             this.txtNama.Location = new System.Drawing.Point(244, 63);
             this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(100, 26);
+            this.txtNama.Size = new System.Drawing.Size(200, 26);
             this.txtNama.TabIndex = 3;
+            this.txtNama.TextChanged += new System.EventHandler(this.txtNama_TextChanged);
             // 
             // label3
             // 
@@ -150,9 +151,9 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(557, 32);
+            this.btnConnect.Location = new System.Drawing.Point(557, 22);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(179, 26);
+            this.btnConnect.Size = new System.Drawing.Size(200, 31);
             this.btnConnect.TabIndex = 12;
             this.btnConnect.Text = "Membuka Koneksi";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -160,9 +161,9 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(569, 69);
+            this.btnLoad.Location = new System.Drawing.Point(557, 59);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(167, 30);
+            this.btnLoad.Size = new System.Drawing.Size(214, 30);
             this.btnLoad.TabIndex = 13;
             this.btnLoad.Text = "Menampilkan Data";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -170,9 +171,9 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(557, 106);
+            this.btnInsert.Location = new System.Drawing.Point(557, 93);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(179, 33);
+            this.btnInsert.Size = new System.Drawing.Size(200, 33);
             this.btnInsert.TabIndex = 14;
             this.btnInsert.Text = "Menambahkan Data";
             this.btnInsert.UseVisualStyleBackColor = true;
@@ -180,9 +181,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(557, 144);
+            this.btnUpdate.Location = new System.Drawing.Point(557, 138);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(167, 33);
+            this.btnUpdate.Size = new System.Drawing.Size(200, 33);
             this.btnUpdate.TabIndex = 15;
             this.btnUpdate.Text = "Mengubah Data";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -190,9 +191,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(569, 181);
+            this.btnDelete.Location = new System.Drawing.Point(557, 181);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(188, 30);
+            this.btnDelete.Size = new System.Drawing.Size(200, 30);
             this.btnDelete.TabIndex = 16;
             this.btnDelete.Text = "Menghapus Data";
             this.btnDelete.UseVisualStyleBackColor = true;
